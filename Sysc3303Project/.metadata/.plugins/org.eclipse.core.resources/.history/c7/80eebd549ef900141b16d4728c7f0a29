@@ -16,7 +16,7 @@ public class Client {
    private char check = 'Y';
    
    // we can run in normal (send directly to server) or test
-   // (send to simulator) mod
+   // (send to simulator) mode
    public static enum Mode { NORMAL, TEST};
 
    public Client()
