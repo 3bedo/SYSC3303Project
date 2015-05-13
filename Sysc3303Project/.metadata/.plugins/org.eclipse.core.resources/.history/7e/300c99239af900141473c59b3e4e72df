@@ -234,7 +234,7 @@ public class Client {
                   data = new byte[4];
                   receivePacket = new DatagramPacket(data, data.length);
 
-                  System.out.println("Client: Waiting for ACKS.");
+                  System.out.println("Client: Waiting for ACKS");
                   try {
                      // Block until a datagram is received via sendReceiveSocket.
                      sendReceiveSocket.receive(receivePacket);
